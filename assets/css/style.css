@@ -1,0 +1,323 @@
+@font-face {
+    font-family: 'Montserrat Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Montserrat Light'), url('../fontes/Montserrat-Light.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Montserrat Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Montserrat Regular'), url('../fontes/Montserrat-Regular.woff') format('woff');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url('../img/bg.gif');
+}
+
+header {
+    width: 100%;
+    height: 315px;
+    background: #00B5F0;
+    float: left;
+    margin: 0;
+}
+
+#logo {
+    width: 657px;
+    height: 227px;
+    background: url('../img/topo.png');
+    margin: 0 auto;
+    margin-top: 49px;
+}
+
+#linha-branca {
+    width: 100%;
+    height: 3px;
+    background: #FFF;
+    float: left;
+    margin: 0;
+    position: relative;
+    z-index: 3
+}
+
+#linha-verde {
+    width: 100%;
+    height: 6px;
+    background: #A3D900;
+    float: left;
+    margin: 0;
+    position: relative;
+    z-index: 3
+}
+
+#conteudo {
+    width: 1024px;
+    height: 680px;
+    background: #FFF;
+    margin: 0 auto;
+}
+
+#ponta {
+    width: 271px;
+    height: 59px;
+    background: url('../img/ponta.png');
+    float: left;
+    margin-top: -9px;
+    margin-left: 248px;
+    position: relative;
+    z-index: 4;
+}
+
+#ponta-2 {
+    width: 69px;
+    height: 104px;
+    background: url('../img/ponta-2.png');
+    float: left;
+    margin-left: -167px;
+    margin-top: 15px;
+    position: relative;
+    z-index: 3;
+}
+
+#seta-esquerda {
+    width: 16px;
+    height: 25px;
+    float: left;
+    background: url('../img/seta-esquerda.png');
+    margin-top: 45px;
+    margin-left: 9px;
+    transition-duration: 0.5s;
+}
+
+#seta-esquerda:hover {
+    width: 16px;
+    height: 25px;
+    float: left;
+    background: url('../img/seta-esquerda-hover.png');
+    margin-top: 45px;
+    margin-left: 9px;
+    transition-duration: 0.5s;
+}
+
+#seta-direita {
+    width: 16px;
+    height: 25px;
+    float: left;
+    background: url('../img/seta-direita.png');
+    margin-top: 45px;
+    margin-left: 18px;
+    transition-duration: 0.5s;
+}
+
+#seta-direita:hover {
+    width: 16px;
+    height: 25px;
+    float: left;
+    background: url('../img/seta-direita-hover.png');
+    margin-top: 45px;
+    margin-left: 18px;
+    transition-duration: 0.5s;
+}
+
+#box {
+    width: 1024px;
+    height: auto;
+    float: left;
+    margin-top: -100px;
+}
+
+#noticias {
+    width: 497px;
+    height: auto;
+    float: left;
+}
+
+#imagem-titulo {
+    width: 63px;
+    height: 63px;
+    float: left;
+    border: 1px solid #C8C8C8;
+    border-radius: 100%;
+    background: #FFF;
+}
+
+#jornal {
+    width: 22px;
+    height: 36px;
+    background: url('../img/jornal.png');
+    margin: 0 auto;
+    margin-top: 14px;
+}
+
+#titulo-noticias {
+    margin-top: 80px;
+}
+
+#titulo-noticias h1 {
+    float: left;
+    font-family: 'Montserrat Regular';
+    font-weight: normal;
+    font-size: 18px;
+    color: #B1B1B1;
+    margin-left: -25px;
+    margin-top: 40px;
+}
+
+#todas-noticias {
+    margin-left: 23px;
+}
+
+#toda-noticia {
+    width: 118px;
+    height: 300px;
+    float: left;
+    margin-left: 14px;
+}
+
+#avatar-noticia {
+    width: 118px;
+    height: 128px;
+    float: left;
+    border-radius: 5px;
+    position: relative;
+    z-index: 2;
+}
+
+#titulo {
+    float: left;
+    width: 118px;
+    margin-top: 128px;
+    margin-left: -118px;
+}
+
+#titulo a {
+    text-decoration: none;
+    color: #B1B1B1;
+    float: left;
+    transition-duration: 0.5s;
+}
+
+#titulo a:hover {
+    transition-duration: 0.5s;
+    color: #ACE500;
+}
+
+#titulo h1 {
+    font-family: 'Montserrat Regular';
+    font-weight: normal;
+    font-size: 15px;
+    margin: 0;
+}
+
+#descricao {
+    float: left;
+    width: 118px;
+    margin-top: 165px;
+    margin-left: -118px;
+}
+
+#descricao a {
+    text-decoration: none;
+    color: #D6D6D6;
+    float: left;
+}
+
+#descricao a:hover {
+    transition-duration: 0.5s;
+    color: #ACE500;
+}
+
+#descricao h1 {
+    font-family: 'Montserrat Regular';
+    font-weight: normal;
+    font-size: 15px;
+    margin: 0;
+}
+
+#divisoria {
+    width: 1px;
+    height: 186px;
+    background: #D1D1D1;
+    float: left;
+    margin-left: 27px;
+    margin-top: 41px;
+}
+
+#mensagem h1 {
+    font-family: 'Montserrat Regular';
+    font-weight: normal;
+    font-size: 25px;
+    margin: 0;
+    margin-left: 32px;
+    float: left;
+    color: #B1B1B1;
+    margin-top: 80px;
+}
+
+#mensagem p {
+    float: left;
+    width: 450px;
+    font-family: 'Montserrat Light';
+    font-weight: normal;
+    font-size: 13px;
+    margin-left: 27px;
+    color: #B1B1B1;
+}
+
+#rodape {
+    width: 100%;
+    height: 124px;
+    background: #A3D900;
+    float: left;
+}
+
+#alinhamento-rodape {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+#parceiros {
+    width: 157px;
+    height: 43px;
+    background: url('../img/parceiros.png');
+}
+
+#box-parceiros {
+    width: 289px;
+    height: 56px;
+    background: #FFF;
+    float: left;
+    margin-top: 53px;
+    margin-left: 8px;
+    border-radius: 3px;
+}
+
+#marquee {
+    margin-top: 8px;
+}
+
+#divisor-verde {
+    width: 1px;
+    height: 60px;
+    background: #000;
+    opacity: 0.13;
+    filter: alpha(opacity=13);
+    float: left;
+    margin-left: 50px;
+}
+
+#mensagem-roda p {
+    margin: 0;
+    font-size: 13px;
+    font-family: 'Montserrat Light';
+    font-weight: normal;
+    color: #000;
+    opacity: 0.53;
+    filter: alpha(opacity=53);
+    margin-left: 21px;
+    float: left;
+}
